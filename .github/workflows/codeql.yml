@@ -12,8 +12,6 @@ on:
     - main
     - v4-dev
     - "!dependabot/**"
-  schedule:
-  - cron: "0 2 * * 4"
   workflow_dispatch:
     inputs:
       leg:
